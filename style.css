@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    justify-content: space-around;
+    display: flex;
+    height: 80px;
+    background-color: rgb (248,249,250);
+    padding-top: 25px;
+}
+ul li{
+    padding-left: 10px;
+    display: inline-block;
+}
+.task1{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+.item2{
+    display: flex;
+    padding-top: 20px;
+}
+.item1 .btn1{
+    text-align: center;
+    background-color: white;
+    height:25px;
+    width: 30px;
+}
+.item4 button{
+    text-align: center;
+    background-color: white;
+    height:35px;
+    width: 100px;
+}
+.item4 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.item3 , .item4 {
+padding: 10px;
+}
+
+ .btn5 button{
+    background-color: white;
+    width: 100px;
+    height:30px;
+}
+.btn5 button:hover {
+    background-color: black;
+    color: white;
+}
+.item button:hover {
+    background-color: black;
+    color: white;
+}
+
+.task1 .basliq{
+    margin: 150px;
+}
+ul li a{
+    padding-left: 15px;
+}
+.btn{
+    padding-left: 900px;
+}
+.item5{
+    display: flex;
+    padding-left: 30px;
+    margin: 60px;
+    
+}
+.item{
+   display: flex;
+    width: 25px;
+    margin: 6.5px;
+    padding-left: 100px;
+}
+.item .img1, .item .img2, .item .img3, .item .img4{
+    padding: 20px;
+}
+
+
